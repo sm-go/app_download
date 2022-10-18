@@ -1,0 +1,21 @@
+[app]
+Host = "http://127.0.0.1"
+Port = "8082"
+
+[mysql]
+MysqlHost = "127.0.0.1"
+MysqlPort = "3306"
+MysqlUser = "root"
+MysqlPass=""
+MysqlDB = ""
+
+[redis]
+Host = "127.0.0.1"
+Port = "6379"
+Pass = ""
+Db = "0"
+
+[rsa]
+PRIV_KEY_FILE = "config/rsa_private.pem"
+PUB_KEY_FILE = "config/rsa_public.pem"
+REFRESH_SECRET = "mytopsecret"

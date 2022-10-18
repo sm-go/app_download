@@ -1,0 +1,8 @@
+upload.sh
+go.sum
+.idea
+.idea/workspace.xml
+
+/config/config.ini
+/config/rsa_public.pem
+/config/rsa_private.pem
