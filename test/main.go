@@ -77,6 +77,7 @@ func main() {
 		c.String(http.StatusOK, "File %s uploaded successfully with fields name=%s and email=%s.", file.Filename, name, email)
 	})
 	//server running on port
+	//hello server
 	router.Run(":8080")
 
 }
